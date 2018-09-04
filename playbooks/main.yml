@@ -25,7 +25,7 @@
     - blackbox
 
 - name: Install prometheus
-  hosts: all
+  hosts: admin:openio
   become: true
   gather_facts: true
   roles:
